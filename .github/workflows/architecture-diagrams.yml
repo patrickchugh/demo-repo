@@ -34,4 +34,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add architecture.dot.*
-          git diff --staged --quiet || (git commit -m "Update architecture diagrams [skip ci]" && git pull --rebase && git push)
+          git diff --staged --quiet || git commit -m "Update architecture diagrams [skip ci]"
+          git push 
