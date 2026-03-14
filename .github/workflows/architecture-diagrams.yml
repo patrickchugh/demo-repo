@@ -22,7 +22,7 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           role-session-name: ghasession
-          aws-region: us-west-2
+          aws-region: us-east-1
 
       - uses: patrickchugh/terravision-action@v1
         with:
