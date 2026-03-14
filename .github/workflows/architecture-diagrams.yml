@@ -2,7 +2,7 @@ name: Update Architecture Diagrams
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths: ['**.tf', '**.tfvars']
 
 jobs:
